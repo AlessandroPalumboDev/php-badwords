@@ -1,3 +1,5 @@
+# PHP Badwords
+
 ## Descrizione:
 
 - Creare un form PHP che permetta di inviare due campi: un paragrafo ed una parola da censurare.
@@ -10,3 +12,8 @@
 ## Bonus:
 
 Aggiungete bootstrap alla pagina per dare un po' di stile al risultato.
+
+## Svolgimento:
+
+- Creo un file index.php con un form nel DOM
+- Creo un file che riceve la richiesta
