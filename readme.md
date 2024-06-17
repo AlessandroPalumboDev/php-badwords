@@ -17,3 +17,4 @@ Aggiungete bootstrap alla pagina per dare un po' di stile al risultato.
 
 - Creo un file index.php con un form nel DOM
 - Creo un file che riceve la richiesta
+- Stampo in pagina il testo e la sua lunghezza
