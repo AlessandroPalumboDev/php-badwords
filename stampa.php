@@ -24,35 +24,37 @@ $testo_censurato_len = strlen($testo_censurato);
 
 </head>
 <body>
-    <h1>
-    PHP Badwords
-    </h1>
-
-    <div>
-        <h3>
-        Questo è il testo da censurare:
-        </h3>
-        <p><?php echo $testo ?></p>
-    </div>
-    <div>
-        <h3>
-        Questa è la lunghezza del testo da censurare:
-        </h3>
-        <span><?php echo $testo_len ?></span>
-    </div>
-    <div>
-        <h3>
-        Questo è il testo censurato:
-        </h3>
-        <p>
-        <?php echo $testo_censurato ?>
-        </p>
-    </div>
-    <div>
-        <h3>
-        Questa è la lunghezza del testo censurato:
-        </h3>
-        <span><?php echo $testo_censurato_len ?></span>
+    <div class="container">
+        <h1 class="mt-3">
+            PHP Badwords
+        </h1>
+    
+        <div class="row">
+            <h3 class="mt-3">
+            Questo è il testo da censurare:
+            </h3>
+            <p class="mt-3"><?php echo $testo ?></p>
+        </div>
+        <div>
+            <h3 class="mt-3">
+            Questa è la lunghezza del testo da censurare:
+            </h3>
+            <span class="mt-3"><?php echo $testo_len ?></span>
+        </div>
+        <div class="row">
+            <h3 class="mt-3">
+            Questo è il testo censurato:
+            </h3>
+            <p class="mt-3">
+            <?php echo $testo_censurato ?>
+            </p>
+        </div>
+        <div class="row">
+            <h3 class="mt-3">
+            Questa è la lunghezza del testo censurato:
+            </h3>
+            <span class="mt-3"><?php echo $testo_censurato_len ?></span>
+        </div>
     </div>
 </body>
 </html>
